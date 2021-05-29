@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Rebot 4.0.1 (Python 3.9.5 on darwin)" generated="20210529 23:24:47.307" rpa="false" schemaversion="2">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="LoginTest" source="/Users/wisdomvast/PycharmProjects/pythonProject/TestCaseNew/LoginTest.robot">
+<test id="s1-s1-t1" name="LoginTest">
+<kw name="Open my browser" library="LoginKeyword">
+<arg>${SiteUrl}</arg>
+<arg>${Browser}</arg>
+<kw name="Open Browser">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<msg timestamp="20210529 23:24:46.743" level="FAIL">No keyword with name 'Open Browser' found. Did you mean:
+    LoginKeyword.Open My Browser</msg>
+<status status="FAIL" starttime="20210529 23:24:46.743" endtime="20210529 23:24:46.744"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20210529 23:24:46.747" endtime="20210529 23:24:46.747"/>
+</kw>
+<status status="FAIL" starttime="20210529 23:24:46.737" endtime="20210529 23:24:46.747"/>
+</kw>
+<kw name="Enter username" library="LoginKeyword">
+<arg>${usr}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.748" endtime="20210529 23:24:46.748"/>
+</kw>
+<kw name="Enter password" library="LoginKeyword">
+<arg>${pwd}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.748" endtime="20210529 23:24:46.748"/>
+</kw>
+<kw name="Click login btn" library="LoginKeyword">
+<status status="NOT RUN" starttime="20210529 23:24:46.748" endtime="20210529 23:24:46.748"/>
+</kw>
+<kw name="Verify successful login" library="LoginKeyword">
+<status status="NOT RUN" starttime="20210529 23:24:46.748" endtime="20210529 23:24:46.749"/>
+</kw>
+<kw name="Close Browser" library="LoginKeyword">
+<status status="NOT RUN" starttime="20210529 23:24:46.749" endtime="20210529 23:24:46.749"/>
+</kw>
+<status status="FAIL" starttime="20210529 23:24:46.733" endtime="20210529 23:24:46.750">No keyword with name 'Open Browser' found. Did you mean:
+    LoginKeyword.Open My Browser</status>
+</test>
+<status status="FAIL" starttime="20210529 23:24:46.702" endtime="20210529 23:24:46.753"/>
+</suite>
+<suite id="s1-s2" name="RegistrationTest" source="/Users/wisdomvast/PycharmProjects/pythonProject/TestCaseNew/RegistrationTest.robot">
+<test id="s1-s2-t1" name="RegistrationTest">
+<kw name="Open my browser" library="RegistrationKeyword">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<kw name="Open Browser">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<msg timestamp="20210529 23:24:46.747" level="FAIL">No keyword with name 'Open Browser' found. Did you mean:
+    RegistrationKeyword.Open My Browser</msg>
+<status status="FAIL" starttime="20210529 23:24:46.747" endtime="20210529 23:24:46.747"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20210529 23:24:46.753" endtime="20210529 23:24:46.753"/>
+</kw>
+<status status="FAIL" starttime="20210529 23:24:46.741" endtime="20210529 23:24:46.753"/>
+</kw>
+<kw name="Click Registration Link" library="RegistrationKeyword">
+<status status="NOT RUN" starttime="20210529 23:24:46.754" endtime="20210529 23:24:46.754"/>
+</kw>
+<kw name="Enter Firstname" library="RegistrationKeyword">
+<arg>${fname}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.754" endtime="20210529 23:24:46.754"/>
+</kw>
+<kw name="Enter Lastname" library="RegistrationKeyword">
+<arg>${lname}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.755" endtime="20210529 23:24:46.755"/>
+</kw>
+<kw name="Enter phone" library="RegistrationKeyword">
+<arg>${phone}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.755" endtime="20210529 23:24:46.755"/>
+</kw>
+<kw name="Enter Email" library="RegistrationKeyword">
+<arg>${email}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.755" endtime="20210529 23:24:46.756"/>
+</kw>
+<kw name="Enter Address" library="RegistrationKeyword">
+<arg>${addr}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.756" endtime="20210529 23:24:46.756"/>
+</kw>
+<kw name="Enter City" library="RegistrationKeyword">
+<arg>${city}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.756" endtime="20210529 23:24:46.756"/>
+</kw>
+<kw name="Enter state" library="RegistrationKeyword">
+<arg>${state}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.757" endtime="20210529 23:24:46.757"/>
+</kw>
+<kw name="Enter Postcode" library="RegistrationKeyword">
+<arg>${postcode}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.757" endtime="20210529 23:24:46.758"/>
+</kw>
+<kw name="Select country" library="RegistrationKeyword">
+<arg>${country}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.758" endtime="20210529 23:24:46.758"/>
+</kw>
+<kw name="Enter username" library="RegistrationKeyword">
+<arg>${username}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.758" endtime="20210529 23:24:46.758"/>
+</kw>
+<kw name="Enter password" library="RegistrationKeyword">
+<arg>${password}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.758" endtime="20210529 23:24:46.758"/>
+</kw>
+<kw name="Enter conf password" library="RegistrationKeyword">
+<arg>${confpassword}</arg>
+<status status="NOT RUN" starttime="20210529 23:24:46.759" endtime="20210529 23:24:46.759"/>
+</kw>
+<kw name="Click login btn" library="RegistrationKeyword">
+<status status="NOT RUN" starttime="20210529 23:24:46.759" endtime="20210529 23:24:46.760"/>
+</kw>
+<kw name="Verify registration" library="RegistrationKeyword">
+<status status="NOT RUN" starttime="20210529 23:24:46.760" endtime="20210529 23:24:46.760"/>
+</kw>
+<kw name="Close Browser" library="RegistrationKeyword">
+<status status="NOT RUN" starttime="20210529 23:24:46.760" endtime="20210529 23:24:46.760"/>
+</kw>
+<status status="FAIL" starttime="20210529 23:24:46.740" endtime="20210529 23:24:46.761">No keyword with name 'Open Browser' found. Did you mean:
+    RegistrationKeyword.Open My Browser</status>
+</test>
+<status status="FAIL" starttime="20210529 23:24:46.706" endtime="20210529 23:24:46.763"/>
+</suite>
+<doc>[https://pabot.org/?ref=log|Pabot] result from 2 executions.</doc>
+<status status="FAIL" starttime="20210529 23:24:46.626" endtime="20210529 23:24:46.766"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="LoginTest">Suites.LoginTest</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s2" name="RegistrationTest">Suites.RegistrationTest</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210529 23:24:46.711" level="ERROR">Error in file '/Users/wisdomvast/PycharmProjects/pythonProject/TestCaseNew/LoginTest.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /usr/local/bin
+  /usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python39.zip
+  /usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9
+  /usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Users/wisdomvast/Library/Python/3.9/lib/python/site-packages
+  /usr/local/lib/python3.9/site-packages</msg>
+<msg timestamp="20210529 23:24:46.726" level="ERROR">Error in file '/Users/wisdomvast/PycharmProjects/pythonProject/resources/LoginKeyword.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /usr/local/bin
+  /usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python39.zip
+  /usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9
+  /usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Users/wisdomvast/Library/Python/3.9/lib/python/site-packages
+  /usr/local/lib/python3.9/site-packages</msg>
+<msg timestamp="20210529 23:24:46.712" level="ERROR">Error in file '/Users/wisdomvast/PycharmProjects/pythonProject/TestCaseNew/RegistrationTest.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /usr/local/bin
+  /usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python39.zip
+  /usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9
+  /usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Users/wisdomvast/Library/Python/3.9/lib/python/site-packages
+  /usr/local/lib/python3.9/site-packages</msg>
+<msg timestamp="20210529 23:24:46.735" level="ERROR">Error in file '/Users/wisdomvast/PycharmProjects/pythonProject/resources/RegistrationKeyword.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /usr/local/bin
+  /usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python39.zip
+  /usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9
+  /usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Users/wisdomvast/Library/Python/3.9/lib/python/site-packages
+  /usr/local/lib/python3.9/site-packages</msg>
+</errors>
+</robot>

@@ -1,0 +1,16 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.LoginTest                                                              
+==============================================================================
+LoginTest                                                             | FAIL |
+No keyword with name 'Open Browser' found. Did you mean:
+    LoginKeyword.Open My Browser
+------------------------------------------------------------------------------
+Suites.LoginTest                                                      | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  /Users/wisdomvast/PycharmProjects/pythonProject/Results/pabot_results/0/output.xml
